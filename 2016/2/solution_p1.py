@@ -18,7 +18,7 @@ def compute_next_position( movement, initial_position = ( 1, 1 ) ):
          if current_position[ 0 ] < ( GRID_DIMENSIONS[ 0 ] - 1 ):
             current_position[ 0 ] += 1
       else:
-         raise ValueError( "Invalud move: '{}'".format( move ) )
+         raise ValueError( "Invalid move: '{}'".format( move ) )
 
    return tuple( current_position )
 
