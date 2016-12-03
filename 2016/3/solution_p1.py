@@ -6,7 +6,7 @@ def get_triangles( *triangle_lines ):
       if len( components ) == 3:
          result.append( tuple( map( lambda x: int( x ), components ) ) )
       else:
-         raise ValueError( "Invalid trianlge line at line {:d}".format( index ) )
+         raise ValueError( "Invalid triangle line at line {:d}".format( index ) )
 
    return result
 
